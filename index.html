@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body background="assets/images/physicsBackground.jpg">
+	<div id="mainWrapper">
+		<div class="header centerClass">
+			<h1> Brian's Wacky Physics Trivia</h1>
+		</div>
+		<div id="gameContentWrapper" class="centerClass">
+			<div id="upperGameContainer" class="centerClass">
+				<div id="explanationCont" class="centerClass">
+					<p>
+						This trivia game will randomly build a 5 question test where by the questions will relate to topics in physics. There are 10 questions total and each time the game is played, the dungeon master will choose questions at random... Oh and because the dungeon master is cruel, all questions will have their answers shuffled so their order does not repeat on the screen. Good luck and may your blades never dull!!
+					</p>
+				</div>
+			</div>
+			<div id="lowerGameContainer" class="centerClass">
+				<div id="startButton" class="centerClass hoverClass">
+					<span>Start</span>
+				</div>
+				<div class="centerClass">
+					<h2>Select Difficulty</h2>
+				</div>
+				<div class="centerClass">
+					<div class="radioLeft">
+						<input type="radio" name="timeVal" value="expert">Expert: Timer = 10 sec (test your might)<br>
+						<input type="radio" name="timeVal" value="standard" checked="checked"> Standard (default): Timer = 25 sec<br>
+						<input type="radio" name="timeVal" value="totalNoob"> Total Noob: Timer = 45 sec
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</html>

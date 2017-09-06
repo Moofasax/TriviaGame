@@ -1,0 +1,74 @@
+body{
+	height: 900px;
+}
+
+div{
+	text-align: center;
+}
+
+h1{
+	font-size: 60px;
+	margin: 0 auto;
+	padding-left: 10px;
+}
+
+span{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	width: 100%;
+}
+
+input{
+	padding:2px;
+}
+
+h2{
+	display:block;
+	text-align: left;
+	margin: 0;
+	margin-top: 15px;
+}
+
+.radioLeft{
+	display:block;
+	text-align: left;
+	padding: 5px;
+}
+
+.hoverClass:hover{
+	background-color: 	#F5F5DC;
+/*	border-width: 1px;*/
+	border-style: solid;
+	border-color: black;
+}
+
+.centerClass{
+	margin: 0 auto;
+	width: 80%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+}
+
+.choiceContainer{
+	width: 350px;
+}
+
+#explanationCont{
+	margin-top: 50px;
+}
+
+#mainWrapper{
+	width: 960px;
+	height: 80%;
+	margin: 0 auto;
+	background-color: #FFFAFA;
+}
+
+#startButton{
+	width: 200px;
+	margin-top: 30px;
+
+}
