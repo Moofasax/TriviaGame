@@ -128,7 +128,7 @@ var triviaTestData = [
 		"answer": 3,
 		"giffPath": "assets/images/funnyEinstein.gif",
 		"wrongGiff": "assets/images/funnyEinstein.gif",
-		"answerExplan": "Chemical reactions that respond extremely quickly are commonly refered to as EXPLOSIONS!!"
+		"answerExplan": "While Brian's back did hurt, he was mainly hungry when he finished!!"
 	},
 ];
 
